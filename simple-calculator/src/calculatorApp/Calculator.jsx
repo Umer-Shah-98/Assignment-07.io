@@ -33,7 +33,7 @@ export default function Calculator() {
         <div className="introduction">
           <h4 id="casio">CASIO</h4>
           <h6 className="model">
-            MX-85
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MX-85
             <br />
             TWO WAY POWER
           </h6>

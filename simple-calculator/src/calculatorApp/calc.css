@@ -7,7 +7,7 @@
     font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
     width: 100%;
     height: 100vh;
-    
+    margin-top: 50px;
 }
 
 .calculator{
@@ -30,12 +30,12 @@
     align-items: center;
     background: #d5c0e9;
     width: 296px;
-    height: 60px;
+    height: 88px;
     padding: 0 20px;
     /* margin-top: 40px; */
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    margin-top: -20px;
+    margin-top: -71px;
 }
 .cell{
     background-color:#3d4543;
@@ -85,7 +85,7 @@
     grid-template-columns: repeat(4,1fr);
     grid-auto-rows: minmax(40px,auto);
     width: 280px;
-    height: 240px;
+    height: 300px;
     margin-top: 30px;
 }
 
