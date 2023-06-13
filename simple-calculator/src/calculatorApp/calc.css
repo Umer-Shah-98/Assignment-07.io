@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
+.container{ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    width: 100%;
+    height: 100vh;
+    
+}
+
+.calculator{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #d5c0e9;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-top: 20px;
+    height: 500px;
+    
+}
+.introduction{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #d5c0e9;
+    width: 296px;
+    height: 60px;
+    padding: 0 20px;
+    /* margin-top: 40px; */
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-top: -20px;
+}
+.cell{
+    background-color:#3d4543;
+    width: 120px;
+    height: 35px;
+    border-radius: 7px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+.line{
+    height: 35px;
+    width: 2px;
+    background: #3e3636;
+}
+/* .specs{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 5px;
+    background: #3d4543;
+    height: 100%;
+    overflow: hidden;
+    white-space: normal;
+    word-wrap: break-word;
+    padding: 0;
+    margin: 0;
+    text-overflow: clip;
+} */
+.row-1{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    width: 320px;
+    background: #d5c0e9;
+    /* padding-left: 5px; */
+    margin-left: 14px;
+}
+.buttons{
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 280px; */
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-auto-rows: minmax(40px,auto);
+    width: 280px;
+    height: 240px;
+    margin-top: 30px;
+}
+
+#all-clear{
+    grid-column: 1/3;
+    grid-row: 1;
+}
+#output{
+    grid-column: 3/5;
+    grid-row: 5;
+}
+button{
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    /* width: 40px; */
+    /* height: 48px; */
+    cursor: pointer;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 700;
+}
+input:focus,
+input:active,
+button:focus,
+button:active{
+    outline: none;
+}
+.operators{
+    /* background: #4774ce; */
+    color: white;
+    background: #f68a0d;
+}

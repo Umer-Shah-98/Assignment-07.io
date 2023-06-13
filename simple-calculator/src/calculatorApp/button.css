@@ -1,0 +1,16 @@
+.button{
+    width: 73px;
+    margin-top: 16px;
+}
+.button input{
+    width: 55px;
+    height: 40px;
+    border-radius: 7px;
+    text-align: center;
+    font-size: 19px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    background: #5a5353;
+}
